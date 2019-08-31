@@ -1,0 +1,23 @@
+homeassistant:
+  latitude: !secret latitude
+  longitude: !secret longitude
+  elevation: 100
+  unit_system: imperial
+  time_zone: !secret time_zone
+  name: Home
+  customize: !include config/customize.yaml
+
+default_config:
+
+frontend: !include config/frontend.yaml
+lovelace: !include config/lovelace.yaml
+zwave: !include config/zwave.yaml
+weather: !include config/weather.yaml
+
+group: !include config/groups.yaml
+automation: !include config/automations.yaml
+script: !include config/scripts.yaml
+
+sensor: !include_dir_list config/sensors/
+
+light: !include_dir_merge_list config/lights/

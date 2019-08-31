@@ -1,0 +1,14 @@
+platform: darksky
+api_key: !secret darksky_key
+forecast:
+  - 0
+hourly_forecast:
+  - 0
+  - 1
+monitored_conditions:
+  - summary
+  - icon
+  - temperature
+  - alerts
+  - sunset_time
+  - hourly_summary

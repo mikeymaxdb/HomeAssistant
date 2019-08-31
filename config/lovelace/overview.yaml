@@ -1,0 +1,18 @@
+title: 'Overview'
+path: 'overview'
+cards:
+  - type: light
+    entity: light.living_room_overhead
+  - title: Living room
+    type: entities
+    show_header_toggle: false
+    entities:
+      - light.living_room_all_lights
+      - light.living_room_overhead
+  - title: All lights
+    type: entities
+    show_header_toggle: false
+    entities:
+      - light.all_lights
+  - type: weather-forecast
+    entity: weather.dark_sky
