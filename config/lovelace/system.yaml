@@ -1,33 +1,20 @@
 title: System
 path: system
 cards:
-  - type: vertical-stack
+  - type: horizontal-stack
     cards:
-      - type: gauge
-        name: CPU
-        unit: '%'
-        entity: sensor.processor_use
-        severity:
-          green: 0
-          yellow: 45
-          red: 85
       - type: sensor
         name: 'CPU Usage'
         entity: sensor.processor_use
         graph: line
         detail: 2
-  - type: vertical-stack
-    cards:
-      - type: gauge
-        name: RAM
-        unit: '%'
-        entity: sensor.memory_use_percent
-        severity:
-          green: 0
-          yellow: 45
-          red: 85
       - type: sensor
         name: 'RAM Usage'
         entity: sensor.memory_use_percent
         graph: line
         detail: 2
+  - type: entities
+    name: Last Boot
+    entities:
+      - sensor.last_boot
+    format: date

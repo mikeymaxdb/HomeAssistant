@@ -1,0 +1,7 @@
+sequence:
+  - service: light.turn_off
+    data:
+      entity_id: light.living_room_all_lights
+  - service: notify.notify
+    data:
+      message: 'Goodnight'

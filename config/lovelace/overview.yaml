@@ -1,18 +1,22 @@
 title: 'Overview'
 path: 'overview'
 cards:
+  - type: glance
+    entities:
+      - entity: script.bedtime
+        name: Bedtime
+        icon: mdi:hotel
+        tap_action:
+          action: call-service
+          service: script.turn_on
+          service_data:
+            entity_id: script.bedtime
   - type: light
     entity: light.living_room_overhead
   - title: Living room
     type: entities
-    show_header_toggle: false
+    show_header_toggle: true
     entities:
-      - light.living_room_all_lights
       - light.living_room_overhead
-  - title: All lights
-    type: entities
-    show_header_toggle: false
-    entities:
-      - light.all_lights
   - type: weather-forecast
     entity: weather.dark_sky
