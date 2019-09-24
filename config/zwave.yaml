@@ -1,2 +1,9 @@
 usb_path: /dev/ttyACM0
 network_key: !secret zwave_network_key
+device_config:
+  light.bedroom_area:
+    refresh_value: true
+    delay: 1
+  light.bedroom_overhead:
+    refresh_value: true
+    delay: 1

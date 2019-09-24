@@ -18,5 +18,11 @@ cards:
     show_header_toggle: true
     entities:
       - light.living_room_overhead
+  - title: Bedroom
+    type: entities
+    show_header_toggle: true
+    entities:
+      - light.bedroom_overhead
+      - light.bedroom_area
   - type: weather-forecast
     entity: weather.dark_sky

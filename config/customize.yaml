@@ -1,2 +1,6 @@
 light.living_room_overhead:
   friendly_name: Living Room Overhead Light
+light.bedroom_overhead:
+  friendly_name: Bedroom Overhead Light
+light.bedroom_area:
+  friendly_name: Bedroom Area Light
