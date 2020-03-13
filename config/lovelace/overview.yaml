@@ -11,8 +11,6 @@ cards:
           service: script.turn_on
           service_data:
             entity_id: script.bedtime
-  - type: light
-    entity: light.living_room_overhead
   - title: Living room
     type: entities
     show_header_toggle: true
