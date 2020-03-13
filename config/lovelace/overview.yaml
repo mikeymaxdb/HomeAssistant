@@ -18,6 +18,13 @@ cards:
     show_header_toggle: true
     entities:
       - light.living_room_overhead
+  - title: Morning lights
+    type: entities
+    show_header_toggle: false
+    entities:
+      - input_datetime.wakeup_time
+      - input_boolean.wakeup_enabled
+      - input_boolean.wakeup_weekend
   - title: Bedroom
     type: entities
     show_header_toggle: true
