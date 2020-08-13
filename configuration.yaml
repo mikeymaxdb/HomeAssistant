@@ -18,8 +18,8 @@ script: !include scripts.yaml
 
 sensor: !include_dir_list config/sensors/
 
-group:
-  all_lights:
+light:
+  - platform: group
     name: All Lights
     entities:
       - light.bedroom_area
