@@ -1,20 +1,3 @@
-- alias: 'Set theme at startup'
-  trigger:
-    - platform: homeassistant
-      event: start
-  action:
-    service: frontend.set_theme
-    data:
-      name: default
-- alias: 'Toggle light'
-  trigger:
-    - platform: state
-      entity_id: switch.living_room_1
-      to: 'on'
-  action:
-    - service: light.turn_on
-      data:
-        entity_id: light.living_room_all_lights
 - alias: "Wake me up with bedroom light transition for weekdays"
   trigger:
     platform: template
