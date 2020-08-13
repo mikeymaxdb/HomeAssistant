@@ -1,5 +1,0 @@
-title: Home
-views:
-  - !include config/lovelace/overview.yaml
-  - !include config/lovelace/graphs.yaml
-  - !include config/lovelace/system.yaml
