@@ -10,8 +10,6 @@ default_config:
 
 zwave: !include config/zwave.yaml
 weather: !include config/weather.yaml
-input_boolean: !include config/inputBoolean.yaml
-input_datetime: !include config/inputDatetime.yaml
 
 automation: !include automations.yaml
 script: !include scripts.yaml
