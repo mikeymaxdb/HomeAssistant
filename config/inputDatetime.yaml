@@ -1,4 +1,0 @@
-wakeup_time:
-  name: "Start lights at"
-  has_time: true
-  has_date: false
