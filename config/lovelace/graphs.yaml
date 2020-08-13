@@ -1,8 +1,0 @@
-title: 'Graphs'
-path: 'graphs'
-cards:
-  - name: 'Outdoor temperature'
-    type: sensor
-    entity: sensor.dark_sky_temperature
-    graph: line
-    detail: 1
