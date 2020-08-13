@@ -1,5 +1,0 @@
-- platform: group
-  name: Bedroom All Lights
-  entities:
-    - light.bedroom_overhead
-    - light.bedroom_area

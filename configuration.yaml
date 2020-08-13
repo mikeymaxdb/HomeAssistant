@@ -13,9 +13,8 @@ weather: !include config/weather.yaml
 input_boolean: !include config/inputBoolean.yaml
 input_datetime: !include config/inputDatetime.yaml
 
-group: !include config/groups.yaml
 automation: !include automations.yaml
-
 script: !include scripts.yaml
+
 sensor: !include_dir_list config/sensors/
 

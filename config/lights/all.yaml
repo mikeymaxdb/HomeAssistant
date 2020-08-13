@@ -1,5 +1,0 @@
-- platform: group
-  name: All Lights
-  entities:
-    - light.living_room_all_lights
-    - light.bedroom_all_lights
