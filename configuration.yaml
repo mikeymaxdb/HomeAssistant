@@ -5,7 +5,6 @@ homeassistant:
   unit_system: imperial
   time_zone: !secret time_zone
   name: Home
-  customize: !include config/customize.yaml
 
 default_config:
 
