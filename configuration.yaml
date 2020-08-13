@@ -10,7 +10,6 @@ homeassistant:
 default_config:
 
 frontend: !include config/frontend.yaml
-lovelace: !include config/lovelace.yaml
 zwave: !include config/zwave.yaml
 weather: !include config/weather.yaml
 input_boolean: !include config/inputBoolean.yaml
