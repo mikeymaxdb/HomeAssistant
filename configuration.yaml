@@ -9,7 +9,7 @@ homeassistant:
 default_config:
 
 influxdb:
-  host: localhost
+  host: !secret influxdb_ip
 
 zwave: !include config/zwave.yaml
 weather: !include config/weather.yaml
