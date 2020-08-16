@@ -16,7 +16,7 @@ zwave: !include config/zwave.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
 
-sensor: !include_dir_list config/sensors/
+sensor: !include_dir_merge_list config/sensors/
 
 light:
   - platform: group
