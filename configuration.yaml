@@ -12,7 +12,6 @@ influxdb:
   host: !secret influxdb_ip
 
 zwave: !include config/zwave.yaml
-weather: !include config/weather.yaml
 
 automation: !include automations.yaml
 script: !include scripts.yaml

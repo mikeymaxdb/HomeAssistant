@@ -1,0 +1,14 @@
+nws_current_forecast:
+  friendly_name: 'Current Forecast'
+  entity_id: weather.ksjc_daynight
+  value_template: "{{ states.weather.ksjc_daynight.attributes.forecast[0].detailed_description | truncate(250, False) }}"
+nws_current_rain_forecast:
+  friendly_name: 'Current Rain Chance'
+  entity_id: weather.ksjc_daynight
+  value_template: "{{ states.weather.ksjc_daynight.attributes.forecast[0].precipitation_probability }}"
+  unit_of_measurement: '%'
+nws_current_temperature:
+  friendly_name: 'Current Temperature'
+  entity_id: weather.ksjc_daynight
+  value_template: "{{ states.weather.ksjc_daynight.attributes.temperature }}"
+  device_class: temperature
