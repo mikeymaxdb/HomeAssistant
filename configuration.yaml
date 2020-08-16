@@ -8,6 +8,9 @@ homeassistant:
 
 default_config:
 
+influxdb:
+  host: localhost
+
 zwave: !include config/zwave.yaml
 weather: !include config/weather.yaml
 
