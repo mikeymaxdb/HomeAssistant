@@ -29,6 +29,7 @@ light:
 zoneminder:
   host: !secret zmhost
   ssl: true
+  verify_ssl: false
   username: zmusername
   password: zmpassword
 
