@@ -27,7 +27,7 @@ light:
       - light.living_room_overhead
 
 zoneminder:
-  host: !secret zmip
+  host: !secret zmhost
   ssl: true
   username: zmusername
   password: zmpassword
