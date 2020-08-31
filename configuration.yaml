@@ -26,3 +26,11 @@ light:
       - light.bedroom_overhead
       - light.living_room_overhead
 
+zoneminder:
+  host: !secret zmip
+  ssl: true
+  username: zmusername
+  password: zmpassword
+
+camera:
+  - platform: zoneminder
