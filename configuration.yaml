@@ -30,8 +30,8 @@ zoneminder:
   host: !secret zmhost
   ssl: true
   verify_ssl: false
-  username: zmusername
-  password: zmpassword
+  username: !secret zmusername
+  password: !secret zmpassword
 
 camera:
   - platform: zoneminder
