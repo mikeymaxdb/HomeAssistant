@@ -28,8 +28,6 @@ light:
 
 zoneminder:
   host: !secret zmhost
-  path: /zm/
-  path_zms: /cgi-bin-zm/nph-zms
   ssl: true
   verify_ssl: false
   username: zmusername
