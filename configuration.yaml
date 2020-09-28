@@ -8,8 +8,8 @@ homeassistant:
 
 default_config:
 
-influxdb:
-  host: !secret influxdb_ip
+# influxdb:
+  # host: !secret influxdb_ip
 
 zwave: !include config/zwave.yaml
 
